@@ -1,34 +1,27 @@
-# brain-trainer
+# About
+Одиннадцатая домашняя работа в потоке javascript-2018-10 OTUS
 
-## Project setup
-```
-npm install
-```
+# Description
+Структура приложения "Тренер мозга"
+В разделе Vue одна большая самостоятельная работа - SPA (Single Page Application) игра "Тренер мозга". 
+Игра тренирует выполнение базовых математических операций в уме - устный счет.
+Игра состоит из двух экранов:
+На первом экране пользователь выбирает настройки, которые будут использовать в игре - типы вычислений, сложность, время раунда. На этой же странице показывается статистика тренировок.
+Вторая страница - сама игра. 
+Пользователь должен решить максимальное количество задач на заданное время.
+Мокапы - https://docs.google.com/drawings/d/16TbmyStGCBZknDL3E3W-jPVV9fZpiy5TfW3w7TjisUI/edit?usp=sharing
+Подготовить общую структуру приложения - компоненты контейнеры для страниц приложения.
+Сделать первую страницу приложения - форму настроек.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# How to
+1) Клонируем репозиторий 
+  `git clone https://github.com/georgius1024/vue-brain-trainer-app.git`
+2) Переходим в папку vue-brain-trainer-app
+  `cd vue-brain-trainer-app`
+3) запускаем yarn, произойдет установка зависимосмтей
+  `npm i`
+4) запускаем dev-server
+  `npm run serve`
+5) Делаем настройки и играем (сама игра пока не реализована)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Notes

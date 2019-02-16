@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`menu-item.vue renders correct way 1`] = `
+<li class="uk-active">
+  <router-link-stub to="[object Object]" tag="a" event="click">About</router-link-stub>
+</li>
+`;
