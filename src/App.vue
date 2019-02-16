@@ -4,9 +4,11 @@
 </template>
 
 <script lang="ts">
-import 'uikit';
-import 'uikit/dist/js/uikit-icons.min.js';
+import UIkit from 'uikit';
+import Icons from 'uikit/dist/js/uikit-icons.min.js';
 import 'uikit/dist/css/uikit.min.css';
+UIkit.use(Icons);
+
 import MenuItem from './components/menu-item.vue';
 export default {
   name: 'App',

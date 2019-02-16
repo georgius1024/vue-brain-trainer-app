@@ -5,9 +5,6 @@
 </template>
 
 <script lang="ts">
-import 'uikit';
-import 'uikit/dist/css/uikit.css';
-
 export default {
   name: 'MenuItem',
   props: {
@@ -26,7 +23,7 @@ export default {
         name: this.to
       };
     },
-    className () {
+    className (): string {
       if (this.$route.name === this.to) {
         return 'uk-active';
       }

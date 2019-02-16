@@ -2,7 +2,9 @@
   .uk-container
     div.uk-flex.uk-flex-center
       .uk-card.uk-card-default.uk-card-hover.uk-card-body.uk-width-large
-        router-link.uk-button.uk-button-default(:to="{ name: 'home' }") &times; Отмена
+        router-link.uk-button.uk-button-default(:to="{ name: 'home' }") 
+              span(uk-icon="icon: close")
+              span.uk-margin-left Отмена
         .uk-align-right.uk-margin-remove-bottom
           input.uk-input.uk-form-width-small(type="text", readonly, :value="timeLeft")
         .uk-container.uk-margin-top 
@@ -14,7 +16,6 @@
               input.uk-input.uk-form-width-xsmall(v-model.number="operands.third")
             .uk-margin-top 
               span ={{expectedResult}}
-
         .uk-flex.uk-flex-between.uk-flex-middle.uk-flex-row.uk-margin-medium-top 
           button.uk-icon-button.uk-button-danger 1
           button.uk-icon-button.uk-button-danger 2

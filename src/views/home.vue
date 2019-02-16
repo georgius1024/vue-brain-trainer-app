@@ -4,7 +4,6 @@
       .uk-card.uk-card-default.uk-card-hover.uk-card-body.uk-width-large
         h3.uk-card-title Привет!
         div
-          span(class="uk-margin-small-right uk-icon" uk-icon="close")
           p Добро пожаловать на {{days(daysInTraining) }}
           p Ваш последний результат - решено {{tasksSolved}} из {{tasksTotal}}
           p Общая точность: {{percent(accuracy)}}%
